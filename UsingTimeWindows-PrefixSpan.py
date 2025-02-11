@@ -90,13 +90,12 @@ for group in minute_groups:
     print(group)
 
 
-min_sequence_length = 2  
-max_sequence_length = 30
+min_sequence_length = 2
+max_sequence_length = 15
 # frequency_needed_for_a_group_to_be_considered_frequent
-frequency_needed = 3 
+frequency_needed = 3
 
 frequent_itemsets = prefix_apply(minute_groups,min_sequence_length,max_sequence_length,frequency_needed)
 largest_group_df = extract_largest_groups(frequent_itemsets)
 retrieve_unique_groups(largest_group_df)
-
 
