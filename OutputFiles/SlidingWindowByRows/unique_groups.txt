@@ -1,54 +1,130 @@
-Group 1 (Size: 8): api/v1/alert/list - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/details/get], api/v1/alert/details/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/details/get][en_US][<NUM>], api/v1/alert/details/get - Checking user authz, api/v1/alert/details/get - reading input - payload, query params and path vars, api/v1/alert/details/get - Empty scope for ENTITY, api/v1/alert/details/get - performing input validation, api/v1/alert/details/get - generating output
+Group 1 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
+api/v1/app/health/score/get - generating output
+api/v1/app/health/score/get - Request END -- [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 2 (Size: 10): com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (, com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get], api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>]
+Group 2 (Group Size: 8):
+api/v1/alert/list - Checking user authz
+api/v1/alert/list - reading input - payload, query params and path vars
+api/v1/alert/list - performing input validation
+api/v1/alert/list - generating output
+api/v1/alert/list - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+api/v1/alert/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/list][en_US][<NUM>]
+api/v1/alert/list - Checking user authz
 ------------------------------------------------------------------------------------------
-Group 3 (Size: 8): runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported, runtime - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported, runtime - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/listentityID=<NUM>], runtime - Request Not Supported
+Group 3 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
+api/v1/app/health/score/get - generating output
+api/v1/app/health/score/get - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>]
+api/v1/app/health/score/get - Checking user authz
 ------------------------------------------------------------------------------------------
-Group 4 (Size: 10): com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get], api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>], api/v1/app/health/score/get - Checking user authz, api/v1/app/health/score/get - reading input - payload, query params and path vars, api/v1/app/health/score/get - performing input validation
+Group 4 (Group Size: 4):
+api/v1/app/list - reading input - payload, query params and path vars
+api/v1/app/list - performing input validation
+api/v1/app/list - generating output
+api/v1/app/list - Request END -- [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 5 (Size: 8): api/v1/alert/list - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/user/authn], api/v1/user/authn - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/user/authn][en_US][<NUM>], api/v1/user/authn - Checking user authz, api/v1/user/authn - reading input - payload, query params and path vars, api/v1/user/authn - performing input validation, api/v1/user/authn - generating output, api/v1/user/authn - Request END -- [<NUM>]
+Group 5 (Group Size: 7):
+api/v1/app/health/score/get - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>]
+api/v1/app/health/score/get - Checking user authz
+api/v1/app/health/score/get - reading input - payload, query params and path vars
+api/v1/app/health/score/get - performing input validation
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - START - ConcurrentTask
 ------------------------------------------------------------------------------------------
-Group 6 (Size: 9): com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (, com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>]
+Group 6 (Group Size: 5):
+api/v1/app/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/list][en_US][<NUM>]
+api/v1/app/list - Checking user authz
+api/v1/app/list - reading input - payload, query params and path vars
+api/v1/app/list - performing input validation
+api/v1/app/list - generating output
 ------------------------------------------------------------------------------------------
-Group 7 (Size: 10): com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get], api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>], api/v1/app/health/score/get - Checking user authz, api/v1/app/health/score/get - reading input - payload, query params and path vars
+Group 7 (Group Size: 4):
+api/v1/user/authn - reading input - payload, query params and path vars
+api/v1/user/authn - performing input validation
+api/v1/user/authn - generating output
+api/v1/user/authn - Request END -- [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 8 (Size: 9): com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (, com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
+Group 8 (Group Size: 3):
+runtime - Request received for endpoint: [lcl/api/v1/app/list]
+api/v1/app/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/list][en_US][<NUM>]
+api/v1/app/list - Checking user authz
 ------------------------------------------------------------------------------------------
-Group 9 (Size: 8): runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported, runtime - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/list], api/v1/alert/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/list][en_US][<NUM>], api/v1/alert/list - Checking user authz, api/v1/alert/list - Session is invalid!, api/v1/alert/list - Request END -- [<NUM>]
+Group 9 (Group Size: 10):
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
 ------------------------------------------------------------------------------------------
-Group 10 (Size: 8): api/v1/app/instance/list - reading input - payload, query params and path vars, api/v1/app/instance/list - performing input validation, api/v1/app/instance/list - generating output, api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>], api/v1/app/health/score/get - Checking user authz, api/v1/app/instance/list - Request END -- [<NUM>], api/v1/app/health/score/get - reading input - payload, query params and path vars, api/v1/app/health/score/get - performing input validation
+Group 10 (Group Size: 6):
+runtime - Request received for endpoint: [lcl/api/v1/app/instance/list]
+api/v1/app/instance/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/instance/list][en_US][<NUM>]
+api/v1/app/instance/list - Checking user authz
+api/v1/app/instance/list - reading input - payload, query params and path vars
+api/v1/app/instance/list - performing input validation
+api/v1/app/instance/list - generating output
 ------------------------------------------------------------------------------------------
-Group 11 (Size: 8): api/v1/displaystrings/list - Checking user authz, api/v1/displaystrings/list - reading input - payload, query params and path vars, api/v1/displaystrings/list - performing input validation, api/v1/displaystrings/list - generating output, api/v1/displaystrings/list - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/list], api/v1/app/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/list][en_US][<NUM>], api/v1/app/list - Checking user authz
+Group 11 (Group Size: 4):
+runtime - Request received for endpoint: [lcl/api/v1/user/authn]
+api/v1/user/authn - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/user/authn][en_US][<NUM>]
+api/v1/user/authn - Checking user authz
+api/v1/user/authn - reading input - payload, query params and path vars
 ------------------------------------------------------------------------------------------
-Group 12 (Size: 10): com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get], api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>], api/v1/app/health/score/get - Checking user authz
+Group 12 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (
+com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 13 (Size: 9): com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (, com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output
+Group 13 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (
+com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 14 (Size: 9): com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/instance/list], api/v1/app/instance/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/instance/list][en_US][<NUM>], api/v1/app/instance/list - Checking user authz, api/v1/app/instance/list - reading input - payload, query params and path vars, api/v1/app/instance/list - performing input validation, api/v1/app/instance/list - generating output
+Group 14 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (
+com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 15 (Size: 9): com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/instance/list], api/v1/app/instance/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/instance/list][en_US][<NUM>], api/v1/app/instance/list - Checking user authz, api/v1/app/instance/list - reading input - payload, query params and path vars, api/v1/app/instance/list - performing input validation
+Group 15 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (
+com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 16 (Size: 8): api/v1/alert/details/get - Checking user authz, api/v1/alert/details/get - reading input - payload, query params and path vars, api/v1/alert/details/get - Empty scope for ENTITY, api/v1/alert/details/get - performing input validation, api/v1/alert/details/get - generating output, api/v1/alert/details/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/displaystrings/list], api/v1/displaystrings/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/displaystrings/list][en_US][<NUM>]
-------------------------------------------------------------------------------------------
-Group 17 (Size: 8): api/v1/app/instance/list - Request END -- [<NUM>], api/v1/app/list - reading input - payload, query params and path vars, api/v1/app/list - performing input validation, api/v1/app/list - generating output, api/v1/app/list - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get], api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>], api/v1/app/health/score/get - Checking user authz
-------------------------------------------------------------------------------------------
-Group 18 (Size: 9): com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/health/score/get], api/v1/app/health/score/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/health/score/get][en_US][<NUM>], api/v1/app/health/score/get - Checking user authz, api/v1/app/health/score/get - reading input - payload, query params and path vars, api/v1/app/health/score/get - performing input validation, com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - START - ConcurrentTask
-------------------------------------------------------------------------------------------
-Group 19 (Size: 8): runtime - Request received for endpoint: [lcl/api/v1/alert/details/get], api/v1/alert/details/get - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/details/get][en_US][<NUM>], api/v1/alert/details/get - Checking user authz, api/v1/alert/details/get - reading input - payload, query params and path vars, api/v1/alert/details/get - Empty scope for ENTITY, api/v1/alert/details/get - performing input validation, api/v1/alert/details/get - generating output, api/v1/alert/details/get - Request END -- [<NUM>]
-------------------------------------------------------------------------------------------
-Group 20 (Size: 10): runtime - Request received for endpoint: [lcl/api/v1/alert/list], api/v1/alert/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/list][en_US][<NUM>], api/v1/alert/list - Checking user authz, api/v1/alert/list - reading input - payload, query params and path vars, api/v1/alert/list - performing input validation, api/v1/alert/list - generating output, api/v1/alert/list - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/list], api/v1/alert/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/list][en_US][<NUM>], api/v1/alert/list - Checking user authz
-------------------------------------------------------------------------------------------
-Group 21 (Size: 10): runtime - Request Not Supported, runtime - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported, runtime - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported, runtime - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported
-------------------------------------------------------------------------------------------
-Group 22 (Size: 8): api/v1/user/authn - reading input - payload, query params and path vars, api/v1/user/authn - performing input validation, api/v1/user/authn - generating output, api/v1/user/authn - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/list], api/v1/app/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/list][en_US][<NUM>], api/v1/app/list - Checking user authz, api/v1/app/list - reading input - payload, query params and path vars
-------------------------------------------------------------------------------------------
-Group 23 (Size: 8): api/v1/displaystrings/list - reading input - payload, query params and path vars, api/v1/displaystrings/list - performing input validation, api/v1/displaystrings/list - generating output, api/v1/displaystrings/list - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/list], api/v1/app/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/list][en_US][<NUM>], api/v1/app/list - Checking user authz, api/v1/app/list - Session is invalid!
-------------------------------------------------------------------------------------------
-Group 24 (Size: 8): api/v1/user/authn - generating output, api/v1/user/authn - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/list], api/v1/app/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/list][en_US][<NUM>], api/v1/app/list - Checking user authz, api/v1/app/list - reading input - payload, query params and path vars, api/v1/app/list - performing input validation, api/v1/app/list - generating output
-------------------------------------------------------------------------------------------
-Group 25 (Size: 9): com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/instance/list], api/v1/app/instance/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/instance/list][en_US][<NUM>], api/v1/app/instance/list - Checking user authz
-------------------------------------------------------------------------------------------
-Group 26 (Size: 8): api/v1/app/health/score/get - Request END -- [<NUM>], runtime - Request received for endpoint: [lcl/api/v1/app/instance/list], api/v1/app/instance/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/app/instance/list][en_US][<NUM>], api/v1/app/instance/list - Checking user authz, api/v1/app/instance/list - reading input - payload, query params and path vars, api/v1/app/instance/list - performing input validation, api/v1/app/instance/list - generating output, runtime - Request received for endpoint: [lcl/api/v1/app/list]
-------------------------------------------------------------------------------------------
-Group 27 (Size: 9): com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (, com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>], api/v1/app/health/score/get - generating output, api/v1/app/health/score/get - Request END -- [<NUM>]
+Group 16 (Group Size: 5):
+api/v1/app/instance/list - Request END -- [<NUM>]
+api/v1/app/health/score/get - reading input - payload, query params and path vars
+api/v1/app/health/score/get - performing input validation
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:<NUM> - START - ConcurrentTask
 ------------------------------------------------------------------------------------------

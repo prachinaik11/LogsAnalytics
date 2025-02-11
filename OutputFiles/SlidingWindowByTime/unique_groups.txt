@@ -1,6 +1,20 @@
-Group 1 (Size: 3): runtime - Request received for endpoint: [lcl/api/v1/alert/list], runtime - Request Not Supported, runtime - Request END -- [<NUM>]
+Group 1 (Group Size: 3):
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 2 (Size: 7): com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (, com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
+Group 2 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 3 (Size: 4): com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>], com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask, com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+Group 3 (Group Size: 4):
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
 ------------------------------------------------------------------------------------------

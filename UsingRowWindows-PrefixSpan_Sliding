@@ -76,8 +76,8 @@ def extract_largest_groups(frequent_itemsets):
 def retrieve_unique_groups(largest_group_df):
     unique_groups = {tuple(group) for group in largest_group_df["Sequenced Largest Group"]}
     unique_groups_text = "\n".join(
-        [f"Group {i+1} (Group Size: {len(group)}): {', '.join(map(str, group))}\n" + "-" * 90
-        for i, group in enumerate(unique_groups)]
+        [f"Group {i+1} (Group Size: {len(group)}):\n" + "\n".join(map(str, group)) + "\n" + "-" * 90
+     for i, group in enumerate(unique_groups)]
     )
     with open(output_path + "/unique_groups.txt", "w") as f:
         f.write(unique_groups_text)
@@ -88,7 +88,7 @@ def retrieve_unique_groups(largest_group_df):
 
 
 df = parse_logs(input_path + '/api_first500.txt')
-buckets = split_data_into_overlapping_buckets(df, bucket_size=10, step_size = 1)
+buckets = split_data_into_overlapping_buckets(df, bucket_size=10, step_size = 5)
 
 
 min_sequence_length = 2  

@@ -29,7 +29,7 @@ def parse_logs(file_path):
 
 
 
-def split_data_with_sliding_windows(df, window_size=2, step_size=1):
+def split_data_with_sliding_windows(df, window_size, step_size):
 
     df['timestamp'] = pd.to_datetime(df['timestamp'], format='%Y-%m-%d %H:%M:%S,%f')
 
@@ -37,15 +37,13 @@ def split_data_with_sliding_windows(df, window_size=2, step_size=1):
 
     df['time_group'] = df['timestamp'].dt.strftime('%Y-%m-%d %H:%M')
 
-    # df['module_message'] = df['module'] + " - " + df['message']
-
     df["module_message"] = df["module"].apply(replace_variable_numbers) + " - " + df["message"].apply(replace_variable_numbers)
 
     unique_minutes = df['time_group'].unique()
 
     sliding_windows = []
 
-    for i in range(len(unique_minutes) - window_size + 1):
+    for i in range(0, len(unique_minutes) - window_size + 1, step_size):  # Use step_size
         selected_minutes = unique_minutes[i : i + window_size]
 
         window_logs = df[df['time_group'].isin(selected_minutes)]
@@ -56,6 +54,7 @@ def split_data_with_sliding_windows(df, window_size=2, step_size=1):
             sliding_windows.append(log_list)
 
     return sliding_windows
+
 
 def prefix_apply(minute_groups,min_sequence_length,max_sequence_length,frequency_needed_groups):
     ps = PrefixSpan(minute_groups)
@@ -89,7 +88,7 @@ def extract_largest_groups(frequent_itemsets):
 def retrieve_unique_groups(largest_group_df):
     unique_groups = {tuple(group) for group in largest_group_df["Sequenced Largest Group"]}
     unique_groups_text = "\n".join(
-        [f"Group {i+1} (Group Size: {len(group)}): {', '.join(map(str, group))}\n" + "-" * 90
+        [f"Group {i+1} (Group Size: {len(group)}):\n" + "\n".join(map(str, group)) + "\n" + "-" * 90
         for i, group in enumerate(unique_groups)]
     )
     with open(output_path + "/unique_groups.txt", "w") as f:
@@ -99,8 +98,10 @@ def retrieve_unique_groups(largest_group_df):
 
 
 df = parse_logs(input_path + '/new_logs.txt')
+window_size=2
+step_size=1
 
-minute_groups = split_data_with_sliding_windows(df)
+minute_groups = split_data_with_sliding_windows(df, window_size, step_size)
 
 # for group in minute_groups:
 #     print(group)
