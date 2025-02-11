@@ -1,0 +1,500 @@
+[2025-01-08 00:00:21,154] [INFO ] [24][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 00:00:21,154] [INFO ] [24][2104][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2104]
+[2025-01-08 00:00:21,154] [DEBUG] [24][2104][api/v1/alert/list] - Checking user authz
+[2025-01-08 00:00:21,160] [DEBUG] [24][2104][api/v1/alert/list] - reading input - payload, query params and path vars
+[2025-01-08 00:00:21,161] [DEBUG] [24][2104][api/v1/alert/list] - performing input validation
+[2025-01-08 00:00:21,167] [DEBUG] [24][2104][api/v1/alert/list] - generating output
+[2025-01-08 00:00:21,173] [INFO ] [24][2104][api/v1/alert/list] - Request END -- [13]
+[2025-01-08 00:02:58,916] [INFO ] [32][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/details/get]
+[2025-01-08 00:02:58,917] [INFO ] [32][2105][api/v1/alert/details/get] - Request START -- [49.43.88.107][lcl/api/v1/alert/details/get][en_US][2105]
+[2025-01-08 00:02:58,917] [DEBUG] [32][2105][api/v1/alert/details/get] - Checking user authz
+[2025-01-08 00:02:58,925] [DEBUG] [32][2105][api/v1/alert/details/get] - reading input - payload, query params and path vars
+[2025-01-08 00:02:58,925] [WARN ] [32][2105][api/v1/alert/details/get] - Empty scope for ENTITY
+[2025-01-08 00:02:58,925] [DEBUG] [32][2105][api/v1/alert/details/get] - performing input validation
+[2025-01-08 00:02:59,081] [DEBUG] [32][2105][api/v1/alert/details/get] - generating output
+[2025-01-08 00:02:59,094] [INFO ] [32][2105][api/v1/alert/details/get] - Request END -- [166]
+[2025-01-08 00:05:10,323] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/displaystrings/list]
+[2025-01-08 00:05:10,323] [INFO ] [28][2106][api/v1/displaystrings/list] - Request START -- [49.43.88.107][lcl/api/v1/displaystrings/list][en_US][2106]
+[2025-01-08 00:05:10,323] [DEBUG] [28][2106][api/v1/displaystrings/list] - Checking user authz
+[2025-01-08 00:05:10,329] [DEBUG] [28][2106][api/v1/displaystrings/list] - reading input - payload, query params and path vars
+[2025-01-08 00:05:10,330] [DEBUG] [28][2106][api/v1/displaystrings/list] - performing input validation
+[2025-01-08 00:05:10,331] [DEBUG] [28][2106][api/v1/displaystrings/list] - generating output
+[2025-01-08 00:05:10,336] [INFO ] [28][2106][api/v1/displaystrings/list] - Request END -- [8]
+[2025-01-08 00:45:40,048] [INFO ] [31][0][runtime] - Request received for endpoint: [lcl/api/v1/app/list]
+[2025-01-08 00:45:40,048] [INFO ] [31][2107][api/v1/app/list] - Request START -- [49.43.88.107][lcl/api/v1/app/list][en_US][2107]
+[2025-01-08 00:45:40,048] [DEBUG] [31][2107][api/v1/app/list] - Checking user authz
+[2025-01-08 00:45:40,049] [ERROR] [31][2107][api/v1/app/list] - Session is invalid!
+	
+[2025-01-08 00:45:40,054] [INFO ] [31][2107][api/v1/app/list] - Request END -- [1]
+[2025-01-08 00:45:47,367] [INFO ] [33][0][runtime] - Request received for endpoint: [lcl/api/v1/user/authn]
+[2025-01-08 00:45:47,367] [INFO ] [33][2108][api/v1/user/authn] - Request START -- [49.43.88.107][lcl/api/v1/user/authn][en_US][2108]
+[2025-01-08 00:45:47,367] [DEBUG] [33][2108][api/v1/user/authn] - Checking user authz
+[2025-01-08 00:45:47,367] [DEBUG] [33][2108][api/v1/user/authn] - reading input - payload, query params and path vars
+[2025-01-08 00:45:47,367] [DEBUG] [33][2108][api/v1/user/authn] - performing input validation
+[2025-01-08 00:45:47,372] [DEBUG] [33][2108][api/v1/user/authn] - generating output
+[2025-01-08 00:45:47,376] [INFO ] [33][2108][api/v1/user/authn] - Request END -- [5]
+[2025-01-08 00:45:47,853] [INFO ] [27][0][runtime] - Request received for endpoint: [lcl/api/v1/app/list]
+[2025-01-08 00:45:47,854] [INFO ] [27][2109][api/v1/app/list] - Request START -- [49.43.88.107][lcl/api/v1/app/list][en_US][2109]
+[2025-01-08 00:45:47,854] [DEBUG] [27][2109][api/v1/app/list] - Checking user authz
+[2025-01-08 00:45:47,862] [DEBUG] [27][2109][api/v1/app/list] - reading input - payload, query params and path vars
+[2025-01-08 00:45:47,862] [DEBUG] [27][2109][api/v1/app/list] - performing input validation
+[2025-01-08 00:45:47,863] [DEBUG] [27][2109][api/v1/app/list] - generating output
+[2025-01-08 00:45:47,869] [INFO ] [27][2109][api/v1/app/list] - Request END -- [10]
+[2025-01-08 00:45:48,016] [INFO ] [26][0][runtime] - Request received for endpoint: [lcl/api/v1/app/instance/list]
+[2025-01-08 00:45:48,016] [INFO ] [26][2110][api/v1/app/instance/list] - Request START -- [49.43.88.107][lcl/api/v1/app/instance/list][en_US][2110]
+[2025-01-08 00:45:48,016] [DEBUG] [26][2110][api/v1/app/instance/list] - Checking user authz
+[2025-01-08 00:45:48,022] [DEBUG] [26][2110][api/v1/app/instance/list] - reading input - payload, query params and path vars
+[2025-01-08 00:45:48,022] [DEBUG] [26][2110][api/v1/app/instance/list] - performing input validation
+[2025-01-08 00:45:48,023] [INFO ] [24][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:45:48,024] [DEBUG] [26][2110][api/v1/app/instance/list] - generating output
+[2025-01-08 00:45:48,024] [INFO ] [24][2111][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2111]
+[2025-01-08 00:45:48,024] [DEBUG] [24][2111][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:45:48,031] [INFO ] [26][2110][api/v1/app/instance/list] - Request END -- [8]
+[2025-01-08 00:45:48,035] [DEBUG] [24][2111][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:45:48,035] [DEBUG] [24][2111][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:45:48,035] [INFO ] [818][5251][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1051] - START - ConcurrentTask
+[2025-01-08 00:45:48,036] [INFO ] [819][5252][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1051] - START - ConcurrentTask
+[2025-01-08 00:45:48,036] [INFO ] [820][5253][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1051] - START - ConcurrentTask
+[2025-01-08 00:45:48,036] [INFO ] [822][5255][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1051] - START - ConcurrentTask
+[2025-01-08 00:45:48,036] [INFO ] [821][5254][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1051] - START - ConcurrentTask
+[2025-01-08 00:45:48,039] [DEBUG] [822][5255][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1051] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:45:47.772+00')::timestamptz - ('2025-01-01 00:45:47.565+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2025-01-01 00:45:47.565+00') and msg_ts < ('2025-01-08 00:45:47.772+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:45:48,039] [INFO ] [820][5253][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1051] - END - ConcurrentTask [3]
+[2025-01-08 00:45:48,044] [INFO ] [819][5252][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1051] - END - ConcurrentTask [8]
+[2025-01-08 00:45:48,056] [INFO ] [818][5251][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1051] - END - ConcurrentTask [21]
+[2025-01-08 00:45:48,229] [INFO ] [821][5254][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1051] - END - ConcurrentTask [193]
+[2025-01-08 00:45:48,668] [INFO ] [822][5255][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1051] - END - ConcurrentTask [632]
+[2025-01-08 00:45:48,737] [DEBUG] [24][2111][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:45:48,744] [INFO ] [24][2111][api/v1/app/health/score/get] - Request END -- [715]
+[2025-01-08 00:45:53,973] [INFO ] [30][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:45:53,973] [INFO ] [30][2112][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2112]
+[2025-01-08 00:45:53,973] [DEBUG] [30][2112][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:45:53,979] [DEBUG] [30][2112][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:45:53,979] [DEBUG] [30][2112][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:45:53,979] [INFO ] [818][5256][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1052] - START - ConcurrentTask
+[2025-01-08 00:45:53,979] [INFO ] [819][5259][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1052] - START - ConcurrentTask
+[2025-01-08 00:45:53,979] [INFO ] [821][5258][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1052] - START - ConcurrentTask
+[2025-01-08 00:45:53,979] [INFO ] [822][5257][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1052] - START - ConcurrentTask
+[2025-01-08 00:45:53,979] [INFO ] [820][5260][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1052] - START - ConcurrentTask
+[2025-01-08 00:45:53,980] [DEBUG] [822][5257][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1052] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:45:53.691+00')::timestamptz - ('2025-01-01 00:45:47.565+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2025-01-01 00:45:47.565+00') and msg_ts < ('2025-01-08 00:45:53.691+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:45:53,985] [INFO ] [820][5260][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1052] - END - ConcurrentTask [6]
+[2025-01-08 00:45:53,985] [INFO ] [819][5259][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1052] - END - ConcurrentTask [6]
+[2025-01-08 00:45:54,006] [INFO ] [818][5256][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1052] - END - ConcurrentTask [27]
+[2025-01-08 00:45:54,213] [INFO ] [821][5258][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1052] - END - ConcurrentTask [234]
+[2025-01-08 00:45:54,575] [INFO ] [822][5257][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1052] - END - ConcurrentTask [596]
+[2025-01-08 00:45:54,630] [DEBUG] [30][2112][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:45:54,642] [INFO ] [30][2112][api/v1/app/health/score/get] - Request END -- [659]
+[2025-01-08 00:45:57,758] [INFO ] [32][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:45:57,758] [INFO ] [32][2113][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2113]
+[2025-01-08 00:45:57,758] [DEBUG] [32][2113][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:45:57,763] [DEBUG] [32][2113][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:45:57,763] [DEBUG] [32][2113][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:45:57,763] [INFO ] [822][5261][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1053] - START - ConcurrentTask
+[2025-01-08 00:45:57,763] [INFO ] [820][5265][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1053] - START - ConcurrentTask
+[2025-01-08 00:45:57,763] [INFO ] [818][5264][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1053] - START - ConcurrentTask
+[2025-01-08 00:45:57,763] [INFO ] [819][5263][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1053] - START - ConcurrentTask
+[2025-01-08 00:45:57,763] [INFO ] [821][5262][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1053] - START - ConcurrentTask
+[2025-01-08 00:45:57,763] [DEBUG] [818][5264][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1053] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:45:57.489+00')::timestamptz - ('2024-10-25 00:45:57.476+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2024-10-25 00:45:57.476+00') and msg_ts < ('2025-01-08 00:45:57.489+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:45:57,767] [INFO ] [820][5265][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1053] - END - ConcurrentTask [4]
+[2025-01-08 00:45:57,770] [INFO ] [821][5262][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1053] - END - ConcurrentTask [7]
+[2025-01-08 00:45:58,007] [INFO ] [822][5261][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1053] - END - ConcurrentTask [244]
+[2025-01-08 00:45:58,024] [INFO ] [819][5263][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1053] - END - ConcurrentTask [261]
+[2025-01-08 00:45:58,626] [INFO ] [818][5264][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1053] - END - ConcurrentTask [863]
+[2025-01-08 00:45:58,715] [DEBUG] [32][2113][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:45:58,722] [INFO ] [32][2113][api/v1/app/health/score/get] - Request END -- [957]
+[2025-01-08 00:46:01,353] [INFO ] [29][0][runtime] - Request received for endpoint: [lcl/api/v1/app/instance/list]
+[2025-01-08 00:46:01,353] [INFO ] [29][2114][api/v1/app/instance/list] - Request START -- [49.43.88.107][lcl/api/v1/app/instance/list][en_US][2114]
+[2025-01-08 00:46:01,353] [DEBUG] [29][2114][api/v1/app/instance/list] - Checking user authz
+[2025-01-08 00:46:01,360] [DEBUG] [29][2114][api/v1/app/instance/list] - reading input - payload, query params and path vars
+[2025-01-08 00:46:01,360] [DEBUG] [29][2114][api/v1/app/instance/list] - performing input validation
+[2025-01-08 00:46:01,361] [DEBUG] [29][2114][api/v1/app/instance/list] - generating output
+[2025-01-08 00:46:01,364] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:46:01,364] [INFO ] [28][2115][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2115]
+[2025-01-08 00:46:01,364] [DEBUG] [28][2115][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:46:01,366] [INFO ] [29][2114][api/v1/app/instance/list] - Request END -- [8]
+[2025-01-08 00:46:01,369] [DEBUG] [28][2115][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:46:01,369] [DEBUG] [28][2115][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:46:01,369] [INFO ] [818][5266][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1054] - START - ConcurrentTask
+[2025-01-08 00:46:01,369] [INFO ] [821][5269][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1054] - START - ConcurrentTask
+[2025-01-08 00:46:01,369] [INFO ] [822][5270][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1054] - START - ConcurrentTask
+[2025-01-08 00:46:01,369] [INFO ] [820][5267][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1054] - START - ConcurrentTask
+[2025-01-08 00:46:01,369] [INFO ] [819][5268][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1054] - START - ConcurrentTask
+[2025-01-08 00:46:01,370] [DEBUG] [822][5270][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1054] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:46:01.058+00')::timestamptz - ('2024-10-25 00:45:57.476+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2024-10-25 00:45:57.476+00') and msg_ts < ('2025-01-08 00:46:01.058+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:46:01,371] [INFO ] [818][5266][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1054] - END - ConcurrentTask [2]
+[2025-01-08 00:46:01,389] [INFO ] [819][5268][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1054] - END - ConcurrentTask [20]
+[2025-01-08 00:46:01,648] [INFO ] [820][5267][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1054] - END - ConcurrentTask [279]
+[2025-01-08 00:46:01,675] [INFO ] [821][5269][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1054] - END - ConcurrentTask [306]
+[2025-01-08 00:46:02,688] [INFO ] [822][5270][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1054] - END - ConcurrentTask [1319]
+[2025-01-08 00:46:02,772] [DEBUG] [28][2115][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:46:02,786] [INFO ] [28][2115][api/v1/app/health/score/get] - Request END -- [1409]
+[2025-01-08 00:46:10,575] [INFO ] [25][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:46:10,575] [INFO ] [25][2116][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2116]
+[2025-01-08 00:46:10,576] [DEBUG] [25][2116][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:46:10,581] [DEBUG] [25][2116][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:46:10,582] [DEBUG] [25][2116][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:46:10,582] [INFO ] [822][5271][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1055] - START - ConcurrentTask
+[2025-01-08 00:46:10,582] [INFO ] [821][5275][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1055] - START - ConcurrentTask
+[2025-01-08 00:46:10,582] [INFO ] [818][5274][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1055] - START - ConcurrentTask
+[2025-01-08 00:46:10,582] [INFO ] [820][5273][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1055] - START - ConcurrentTask
+[2025-01-08 00:46:10,582] [INFO ] [819][5272][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1055] - START - ConcurrentTask
+[2025-01-08 00:46:10,583] [DEBUG] [822][5271][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1055] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:46:10.301+00')::timestamptz - ('2024-10-25 00:45:57.476+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2024-10-25 00:45:57.476+00') and msg_ts < ('2025-01-08 00:46:10.301+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:46:10,584] [INFO ] [821][5275][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1055] - END - ConcurrentTask [2]
+[2025-01-08 00:46:10,601] [INFO ] [820][5273][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1055] - END - ConcurrentTask [19]
+[2025-01-08 00:46:10,817] [INFO ] [818][5274][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1055] - END - ConcurrentTask [235]
+[2025-01-08 00:46:10,857] [INFO ] [819][5272][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1055] - END - ConcurrentTask [275]
+[2025-01-08 00:46:11,451] [INFO ] [822][5271][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1055] - END - ConcurrentTask [869]
+[2025-01-08 00:46:11,533] [DEBUG] [25][2116][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:46:11,542] [INFO ] [25][2116][api/v1/app/health/score/get] - Request END -- [959]
+[2025-01-08 00:46:28,238] [INFO ] [31][0][runtime] - Request received for endpoint: [lcl/api/v1/app/instance/list]
+[2025-01-08 00:46:28,238] [INFO ] [31][2117][api/v1/app/instance/list] - Request START -- [49.43.88.107][lcl/api/v1/app/instance/list][en_US][2117]
+[2025-01-08 00:46:28,238] [DEBUG] [31][2117][api/v1/app/instance/list] - Checking user authz
+[2025-01-08 00:46:28,246] [DEBUG] [31][2117][api/v1/app/instance/list] - reading input - payload, query params and path vars
+[2025-01-08 00:46:28,246] [DEBUG] [31][2117][api/v1/app/instance/list] - performing input validation
+[2025-01-08 00:46:28,248] [DEBUG] [31][2117][api/v1/app/instance/list] - generating output
+[2025-01-08 00:46:28,250] [INFO ] [33][0][runtime] - Request received for endpoint: [lcl/api/v1/app/list]
+[2025-01-08 00:46:28,250] [INFO ] [33][2118][api/v1/app/list] - Request START -- [49.43.88.107][lcl/api/v1/app/list][en_US][2118]
+[2025-01-08 00:46:28,251] [DEBUG] [33][2118][api/v1/app/list] - Checking user authz
+[2025-01-08 00:46:28,253] [INFO ] [31][2117][api/v1/app/instance/list] - Request END -- [10]
+[2025-01-08 00:46:28,256] [DEBUG] [33][2118][api/v1/app/list] - reading input - payload, query params and path vars
+[2025-01-08 00:46:28,256] [DEBUG] [33][2118][api/v1/app/list] - performing input validation
+[2025-01-08 00:46:28,257] [DEBUG] [33][2118][api/v1/app/list] - generating output
+[2025-01-08 00:46:28,261] [INFO ] [33][2118][api/v1/app/list] - Request END -- [7]
+[2025-01-08 00:46:28,264] [INFO ] [27][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:46:28,264] [INFO ] [27][2119][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2119]
+[2025-01-08 00:46:28,264] [DEBUG] [27][2119][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:46:28,274] [DEBUG] [27][2119][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:46:28,274] [DEBUG] [27][2119][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:46:28,274] [INFO ] [822][5276][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1056] - START - ConcurrentTask
+[2025-01-08 00:46:28,274] [INFO ] [821][5280][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1056] - START - ConcurrentTask
+[2025-01-08 00:46:28,274] [INFO ] [820][5278][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1056] - START - ConcurrentTask
+[2025-01-08 00:46:28,274] [INFO ] [818][5279][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1056] - START - ConcurrentTask
+[2025-01-08 00:46:28,274] [INFO ] [819][5277][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1056] - START - ConcurrentTask
+[2025-01-08 00:46:28,275] [DEBUG] [822][5276][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1056] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:46:27.954+00')::timestamptz - ('2024-10-25 00:45:57.476+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2024-10-25 00:45:57.476+00') and msg_ts < ('2025-01-08 00:46:27.954+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:46:28,278] [INFO ] [818][5279][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1056] - END - ConcurrentTask [4]
+[2025-01-08 00:46:28,286] [INFO ] [820][5278][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1056] - END - ConcurrentTask [12]
+[2025-01-08 00:46:28,408] [INFO ] [26][0][runtime] - Request received for endpoint: [lcl/api/v1/app/health/score/get]
+[2025-01-08 00:46:28,408] [INFO ] [26][2120][api/v1/app/health/score/get] - Request START -- [49.43.88.107][lcl/api/v1/app/health/score/get][en_US][2120]
+[2025-01-08 00:46:28,408] [DEBUG] [26][2120][api/v1/app/health/score/get] - Checking user authz
+[2025-01-08 00:46:28,415] [INFO ] [24][0][runtime] - Request received for endpoint: [lcl/api/v1/app/instance/list]
+[2025-01-08 00:46:28,415] [INFO ] [24][2121][api/v1/app/instance/list] - Request START -- [49.43.88.107][lcl/api/v1/app/instance/list][en_US][2121]
+[2025-01-08 00:46:28,415] [DEBUG] [24][2121][api/v1/app/instance/list] - Checking user authz
+[2025-01-08 00:46:28,416] [DEBUG] [26][2120][api/v1/app/health/score/get] - reading input - payload, query params and path vars
+[2025-01-08 00:46:28,416] [DEBUG] [26][2120][api/v1/app/health/score/get] - performing input validation
+[2025-01-08 00:46:28,416] [INFO ] [820][5281][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1057] - START - ConcurrentTask
+[2025-01-08 00:46:28,416] [INFO ] [818][5282][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1057] - START - ConcurrentTask
+[2025-01-08 00:46:28,416] [INFO ] [823][5283][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1057] - START - ConcurrentTask
+[2025-01-08 00:46:28,417] [INFO ] [824][5284][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1057] - START - ConcurrentTask
+[2025-01-08 00:46:28,417] [INFO ] [825][5285][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1057] - START - ConcurrentTask
+[2025-01-08 00:46:28,423] [INFO ] [825][5285][com.obs.lcl.blmodule.helpers.NumAlertsByPeriodTask:1057] - END - ConcurrentTask [6]
+[2025-01-08 00:46:28,425] [DEBUG] [820][5281][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1057] - with uptime_range as (
+	select insta_id, 
+		sum(uptime_diff)/extract(epoch from (('2025-01-08 00:46:28.158+00')::timestamptz - ('2024-10-25 00:45:57.476+00')::timestamptz)) as uptimep, 0 as cstate
+	 from (select insta_id, 
+		case when uptime < lag(uptime) over (partition by insta_id order by msg_ts) then uptime
+		else uptime - lag(uptime) over (partition by insta_id order by msg_ts) end as uptime_diff
+	from ts_var_metrics_store where insta_id=any(('{"2","3","4"}')) and msg_ts >= ('2024-10-25 00:45:57.476+00') and msg_ts < ('2025-01-08 00:46:28.158+00')) as subquery
+	group by insta_id order by insta_id asc
+),
+current_state as (
+    select insta_id, uptimep, 1 as cstate
+    from (
+        select insta_id, uptime as uptimep,
+               row_number() over (partition by insta_id order by msg_ts desc) as rn
+        from ts_var_metrics_store
+    ) latest
+    where rn = 1
+)
+select insta_id, uptimep, cstate from uptime_range
+union all
+select insta_id, uptimep, cstate from current_state order by insta_id
+[2025-01-08 00:46:28,433] [DEBUG] [24][2121][api/v1/app/instance/list] - reading input - payload, query params and path vars
+[2025-01-08 00:46:28,434] [DEBUG] [24][2121][api/v1/app/instance/list] - performing input validation
+[2025-01-08 00:46:28,440] [DEBUG] [24][2121][api/v1/app/instance/list] - generating output
+[2025-01-08 00:46:28,447] [INFO ] [823][5283][com.obs.lcl.blmodule.helpers.LastLogIngestionTSTask:1057] - END - ConcurrentTask [31]
+[2025-01-08 00:46:28,468] [INFO ] [24][2121][api/v1/app/instance/list] - Request END -- [25]
+[2025-01-08 00:46:28,478] [INFO ] [819][5277][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1056] - END - ConcurrentTask [204]
+[2025-01-08 00:46:28,734] [INFO ] [821][5280][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1056] - END - ConcurrentTask [460]
+[2025-01-08 00:46:28,818] [INFO ] [824][5284][com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1057] - END - ConcurrentTask [401]
+[2025-01-08 00:46:28,843] [INFO ] [818][5282][com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1057] - END - ConcurrentTask [427]
+[2025-01-08 00:46:29,903] [INFO ] [822][5276][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1056] - END - ConcurrentTask [1629]
+[2025-01-08 00:46:29,977] [DEBUG] [27][2119][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:46:29,979] [INFO ] [820][5281][com.obs.lcl.blmodule.helpers.InstaUptimeTask:1057] - END - ConcurrentTask [1563]
+[2025-01-08 00:46:29,985] [INFO ] [27][2119][api/v1/app/health/score/get] - Request END -- [1714]
+[2025-01-08 00:46:30,069] [DEBUG] [26][2120][api/v1/app/health/score/get] - generating output
+[2025-01-08 00:46:30,076] [INFO ] [26][2120][api/v1/app/health/score/get] - Request END -- [1662]
+[2025-01-08 02:41:22,860] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:41:22,861] [ERROR] [28][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:41:22,865] [INFO ] [28][0][runtime] - Request END -- [1]
+[2025-01-08 02:41:25,092] [INFO ] [25][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:41:25,092] [ERROR] [25][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:41:25,097] [INFO ] [25][0][runtime] - Request END -- [0]
+[2025-01-08 02:41:28,457] [INFO ] [31][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:41:28,457] [ERROR] [31][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:41:28,462] [INFO ] [31][0][runtime] - Request END -- [0]
+[2025-01-08 02:42:13,793] [INFO ] [33][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:42:13,793] [ERROR] [33][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:42:13,798] [INFO ] [33][0][runtime] - Request END -- [1]
+[2025-01-08 02:47:27,559] [INFO ] [26][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/listentityID=0]
+[2025-01-08 02:47:27,559] [ERROR] [26][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:47:27,564] [INFO ] [26][0][runtime] - Request END -- [0]
+[2025-01-08 02:47:31,554] [INFO ] [30][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:47:31,555] [ERROR] [30][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:47:31,559] [INFO ] [30][0][runtime] - Request END -- [1]
+[2025-01-08 02:47:34,571] [INFO ] [32][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:47:34,572] [ERROR] [32][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:47:34,577] [INFO ] [32][0][runtime] - Request END -- [1]
+[2025-01-08 02:47:41,605] [INFO ] [29][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:47:41,605] [ERROR] [29][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:47:41,609] [INFO ] [29][0][runtime] - Request END -- [1]
+[2025-01-08 02:48:15,548] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:48:15,548] [ERROR] [28][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:48:15,553] [INFO ] [28][0][runtime] - Request END -- [0]
+[2025-01-08 02:48:19,547] [INFO ] [25][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:48:19,547] [ERROR] [25][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:48:19,552] [INFO ] [25][0][runtime] - Request END -- [0]
+[2025-01-08 02:48:26,572] [INFO ] [31][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:48:26,572] [ERROR] [31][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:48:26,577] [INFO ] [31][0][runtime] - Request END -- [0]
+[2025-01-08 02:48:32,549] [INFO ] [33][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:48:32,549] [ERROR] [33][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:48:32,554] [INFO ] [33][0][runtime] - Request END -- [0]
+[2025-01-08 02:48:58,551] [INFO ] [24][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:48:58,551] [ERROR] [24][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:48:58,556] [INFO ] [24][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:00,542] [INFO ] [27][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:00,542] [ERROR] [27][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:00,547] [INFO ] [27][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:05,543] [INFO ] [26][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:05,543] [ERROR] [26][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:05,547] [INFO ] [26][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:14,556] [INFO ] [30][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:14,556] [ERROR] [30][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:14,560] [INFO ] [30][0][runtime] - Request END -- [1]
+[2025-01-08 02:49:16,530] [INFO ] [32][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:16,530] [ERROR] [32][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:16,535] [INFO ] [32][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:22,555] [INFO ] [29][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:22,555] [ERROR] [29][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:22,559] [INFO ] [29][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:24,532] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:24,532] [ERROR] [28][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:24,537] [INFO ] [28][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:31,563] [INFO ] [25][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:31,563] [ERROR] [25][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:31,568] [INFO ] [25][0][runtime] - Request END -- [0]
+[2025-01-08 02:49:35,535] [INFO ] [31][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:35,535] [ERROR] [31][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:35,539] [INFO ] [31][0][runtime] - Request END -- [1]
+[2025-01-08 02:49:39,556] [INFO ] [33][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:39,556] [ERROR] [33][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:39,561] [INFO ] [33][0][runtime] - Request END -- [1]
+[2025-01-08 02:49:40,539] [INFO ] [24][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:49:40,540] [ERROR] [24][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:49:40,549] [INFO ] [24][0][runtime] - Request END -- [1]
+[2025-01-08 02:50:49,543] [INFO ] [30][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:50:49,544] [ERROR] [30][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:50:49,548] [INFO ] [30][0][runtime] - Request END -- [1]
+[2025-01-08 02:51:32,010] [INFO ] [32][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:51:32,011] [ERROR] [32][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:51:32,015] [INFO ] [32][0][runtime] - Request END -- [1]
+[2025-01-08 02:51:35,543] [INFO ] [29][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:51:35,543] [ERROR] [29][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:51:35,548] [INFO ] [29][0][runtime] - Request END -- [1]
+[2025-01-08 02:51:39,586] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:51:39,587] [ERROR] [28][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:51:39,591] [INFO ] [28][0][runtime] - Request END -- [1]
+[2025-01-08 02:51:48,535] [INFO ] [25][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:51:48,535] [ERROR] [25][0][runtime] - Request Not Supported
+	
+[2025-01-08 02:51:48,540] [INFO ] [25][0][runtime] - Request END -- [0]
+[2025-01-08 02:52:39,566] [INFO ] [33][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:52:39,566] [INFO ] [33][2150][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2150]
+[2025-01-08 02:52:39,567] [DEBUG] [33][2150][api/v1/alert/list] - Checking user authz
+[2025-01-08 02:52:39,568] [ERROR] [33][2150][api/v1/alert/list] - Session is invalid!
+	
+[2025-01-08 02:52:39,572] [INFO ] [33][2150][api/v1/alert/list] - Request END -- [2]
+[2025-01-08 02:53:14,425] [INFO ] [24][0][runtime] - Request received for endpoint: [lcl/api/v1/user/authn]
+[2025-01-08 02:53:14,425] [INFO ] [24][2151][api/v1/user/authn] - Request START -- [49.43.88.107][lcl/api/v1/user/authn][en_US][2151]
+[2025-01-08 02:53:14,425] [DEBUG] [24][2151][api/v1/user/authn] - Checking user authz
+[2025-01-08 02:53:14,425] [DEBUG] [24][2151][api/v1/user/authn] - reading input - payload, query params and path vars
+[2025-01-08 02:53:14,425] [DEBUG] [24][2151][api/v1/user/authn] - performing input validation
+[2025-01-08 02:53:14,438] [DEBUG] [24][2151][api/v1/user/authn] - generating output
+[2025-01-08 02:53:14,442] [INFO ] [24][2151][api/v1/user/authn] - Request END -- [13]
+[2025-01-08 02:53:15,288] [INFO ] [27][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 02:53:15,288] [INFO ] [27][2152][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2152]
+[2025-01-08 02:53:15,289] [DEBUG] [27][2152][api/v1/alert/list] - Checking user authz
+[2025-01-08 02:53:15,295] [DEBUG] [27][2152][api/v1/alert/list] - reading input - payload, query params and path vars
+[2025-01-08 02:53:15,295] [DEBUG] [27][2152][api/v1/alert/list] - performing input validation
+[2025-01-08 02:53:15,301] [DEBUG] [27][2152][api/v1/alert/list] - generating output
+[2025-01-08 02:53:15,308] [INFO ] [27][2152][api/v1/alert/list] - Request END -- [13]
+[2025-01-08 03:00:19,326] [INFO ] [32][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 03:00:19,326] [INFO ] [32][2153][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2153]
+[2025-01-08 03:00:19,326] [DEBUG] [32][2153][api/v1/alert/list] - Checking user authz
+[2025-01-08 03:00:19,332] [DEBUG] [32][2153][api/v1/alert/list] - reading input - payload, query params and path vars
+[2025-01-08 03:00:19,332] [DEBUG] [32][2153][api/v1/alert/list] - performing input validation
+[2025-01-08 03:00:19,337] [DEBUG] [32][2153][api/v1/alert/list] - generating output
+[2025-01-08 03:00:19,343] [INFO ] [32][2153][api/v1/alert/list] - Request END -- [12]
+[2025-01-08 03:00:20,438] [INFO ] [29][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 03:00:20,438] [INFO ] [29][2154][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2154]
+[2025-01-08 03:00:20,438] [DEBUG] [29][2154][api/v1/alert/list] - Checking user authz
+[2025-01-08 03:00:20,443] [DEBUG] [29][2154][api/v1/alert/list] - reading input - payload, query params and path vars
+[2025-01-08 03:00:20,444] [DEBUG] [29][2154][api/v1/alert/list] - performing input validation
+[2025-01-08 03:00:20,448] [DEBUG] [29][2154][api/v1/alert/list] - generating output
+[2025-01-08 03:00:20,454] [INFO ] [29][2154][api/v1/alert/list] - Request END -- [10]
+[2025-01-08 03:00:24,558] [INFO ] [28][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 03:00:24,558] [INFO ] [28][2155][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2155]
+[2025-01-08 03:00:24,558] [DEBUG] [28][2155][api/v1/alert/list] - Checking user authz
+[2025-01-08 03:00:24,565] [DEBUG] [28][2155][api/v1/alert/list] - reading input - payload, query params and path vars
+[2025-01-08 03:00:24,565] [DEBUG] [28][2155][api/v1/alert/list] - performing input validation
+[2025-01-08 03:00:24,570] [DEBUG] [28][2155][api/v1/alert/list] - generating output
+[2025-01-08 03:00:24,577] [INFO ] [28][2155][api/v1/alert/list] - Request END -- [12]
+[2025-01-08 03:00:28,525] [INFO ] [25][0][runtime] - Request received for endpoint: [lcl/api/v1/alert/list]
+[2025-01-08 03:00:28,525] [INFO ] [25][2156][api/v1/alert/list] - Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2156]
+[2025-01-08 03:00:28,525] [DEBUG] [25][2156][api/v1/alert/list] - Checking user authz
+[2025-01-08 03:00:28,532] [DEBUG] [25][2156][api/v1/alert/list] - reading input - payload, query params and path vars

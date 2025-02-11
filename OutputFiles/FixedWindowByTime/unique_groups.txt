@@ -1,0 +1,23 @@
+Group 1 (Group Size: 12):
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+runtime - Request Not Supported
+runtime - Request END -- [<NUM>]
+------------------------------------------------------------------------------------------
+Group 2 (Group Size: 7):
+runtime - Request received for endpoint: [lcl/api/v1/alert/list]
+api/v1/alert/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/list][en_US][<NUM>]
+api/v1/alert/list - Checking user authz
+api/v1/alert/list - reading input - payload, query params and path vars
+api/v1/alert/list - performing input validation
+api/v1/alert/list - generating output
+api/v1/alert/list - Request END -- [<NUM>]
+------------------------------------------------------------------------------------------

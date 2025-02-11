@@ -1,0 +1,49 @@
+timestamp,log_level,group_id,thread_id,module,message
+"2025-01-08 09:30:36,357",INFO,845,5360,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1072,START - ConcurrentTask
+"2025-01-08 09:30:36,548",INFO,845,5360,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1072,END - ConcurrentTask [191]
+"2025-01-08 09:30:39,213",INFO,845,5361,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1073,START - ConcurrentTask
+"2025-01-08 09:30:39,420",INFO,845,5361,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1073,END - ConcurrentTask [207]
+"2025-01-08 09:30:53,222",INFO,845,5368,com.obs.lcl.blmodule.helpers.InstaUptimeTask:1074,START - ConcurrentTask
+"2025-01-08 09:30:53,223",DEBUG,845,5368,com.obs.lcl.blmodule.helpers.InstaUptimeTask:1074,with uptime_range as (
+"2025-01-08 09:30:53,848",INFO,845,5368,com.obs.lcl.blmodule.helpers.InstaUptimeTask:1074,END - ConcurrentTask [626]
+"2025-01-08 09:03:27,353",INFO,830,5290,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1058,START - ConcurrentTask
+"2025-01-08 09:03:27,554",INFO,830,5290,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1058,END - ConcurrentTask [201]
+"2025-01-08 00:00:21,154",INFO,24,0,runtime,Request received for endpoint: [lcl/api/v1/alert/list]
+"2025-01-08 00:00:21,154",INFO,24,2104,api/v1/alert/list,Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2104]
+"2025-01-08 00:00:21,154",DEBUG,24,2104,api/v1/alert/list,Checking user authz
+"2025-01-08 00:00:21,160",DEBUG,24,2104,api/v1/alert/list,"reading input - payload, query params and path vars"
+"2025-01-08 00:00:21,161",DEBUG,24,2104,api/v1/alert/list,performing input validation
+"2025-01-08 00:00:21,167",DEBUG,24,2104,api/v1/alert/list,generating output
+"2025-01-08 00:00:21,173",INFO,24,2104,api/v1/alert/list,Request END -- [13]
+"2025-01-08 00:02:21,154",INFO,24,0,runtime,Request received for endpoint: [lcl/api/v1/alert/list]
+"2025-01-08 00:02:21,154",INFO,24,2104,api/v1/alert/list,Request START -- [49.43.88.107][lcl/api/v1/alert/list][en_US][2104]
+"2025-01-08 00:02:21,154",DEBUG,24,2104,api/v1/alert/list,Checking user authz
+"2025-01-08 00:02:21,160",DEBUG,24,2104,api/v1/alert/list,"reading input - payload, query params and path vars"
+"2025-01-08 00:02:21,161",DEBUG,24,2104,api/v1/alert/list,performing input validation
+"2025-01-08 00:02:21,167",DEBUG,24,2104,api/v1/alert/list,generating output
+"2025-01-08 00:02:21,173",INFO,24,2104,api/v1/alert/list,Request END -- [13]
+"2025-01-08 09:26:36,357",INFO,845,5360,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1072,START - ConcurrentTask
+"2025-01-08 09:26:36,548",INFO,845,5360,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1072,END - ConcurrentTask [191]
+"2025-01-08 09:26:39,213",INFO,845,5361,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1073,START - ConcurrentTask
+"2025-01-08 09:26:39,420",INFO,845,5361,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1073,END - ConcurrentTask [207]
+"2025-01-08 09:26:53,222",INFO,845,5368,com.obs.lcl.blmodule.helpers.InstaUptimeTask:1074,START - ConcurrentTask
+"2025-01-08 09:26:53,223",DEBUG,845,5368,com.obs.lcl.blmodule.helpers.InstaUptimeTask:1074,with uptime_range as (
+"2025-01-08 09:26:53,848",INFO,845,5368,com.obs.lcl.blmodule.helpers.InstaUptimeTask:1074,END - ConcurrentTask [626]
+"2025-01-08 09:05:27,353",INFO,830,5290,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1058,START - ConcurrentTask
+"2025-01-08 09:05:27,554",INFO,830,5290,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1058,END - ConcurrentTask [201]
+"2025-01-08 02:47:41,605",INFO,29,0,runtime,Request received for endpoint: [lcl/api/v1/alert/list]
+"2025-01-08 02:47:41,605",ERROR,29,0,runtime,Request Not Supported
+"2025-01-08 02:47:41,609",INFO,29,0,runtime,Request END -- [1]
+"2025-01-08 02:51:35,543",INFO,29,0,runtime,Request received for endpoint: [lcl/api/v1/alert/list]
+"2025-01-08 02:51:35,543",ERROR,29,0,runtime,Request Not Supported
+"2025-01-08 02:51:35,548",INFO,29,0,runtime,Request END -- [1]
+"2025-01-08 09:07:27,353",INFO,830,5290,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1058,START - ConcurrentTask
+"2025-01-08 09:07:27,554",INFO,830,5290,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1058,END - ConcurrentTask [201]
+"2025-01-08 09:46:14,060",INFO,858,5418,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1084,START - ConcurrentTask
+"2025-01-08 09:46:14,085",INFO,858,5418,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1084,END - ConcurrentTask [25]
+"2025-01-08 09:46:14,219",INFO,858,5421,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1085,START - ConcurrentTask
+"2025-01-08 09:46:14,544",INFO,858,5421,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1085,END - ConcurrentTask [325]
+"2025-01-08 09:48:14,060",INFO,858,5418,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1084,START - ConcurrentTask
+"2025-01-08 09:48:14,085",INFO,858,5418,com.obs.lcl.blmodule.helpers.InstaEventCountsTask:1084,END - ConcurrentTask [25]
+"2025-01-08 09:48:14,219",INFO,858,5421,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1085,START - ConcurrentTask
+"2025-01-08 09:48:14,544",INFO,858,5421,com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:1085,END - ConcurrentTask [325]
