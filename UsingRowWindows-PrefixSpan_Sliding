@@ -44,7 +44,7 @@ def split_data_into_overlapping_buckets(df, bucket_size, step_size):
     return overlapping_buckets
 
 
-def prefix_apply(minute_groups,min_sequence_length,max_sequence_length,frequency_needed_groups):
+def prefix_apply(minute_groups,min_sequence_length,max_sequence_length,frequency_needed):
     ps = PrefixSpan(minute_groups)
     ps.minlen = min_sequence_length
     ps.maxlen = max_sequence_length

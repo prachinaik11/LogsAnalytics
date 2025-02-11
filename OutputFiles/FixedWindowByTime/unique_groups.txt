@@ -1,18 +1,24 @@
-Group 1 (Group Size: 12):
-runtime - Request received for endpoint: [lcl/api/v1/alert/list]
-runtime - Request Not Supported
-runtime - Request END -- [<NUM>]
-runtime - Request received for endpoint: [lcl/api/v1/alert/list]
-runtime - Request Not Supported
-runtime - Request END -- [<NUM>]
-runtime - Request received for endpoint: [lcl/api/v1/alert/list]
-runtime - Request Not Supported
-runtime - Request END -- [<NUM>]
+Group 1 (Group Size: 3):
 runtime - Request received for endpoint: [lcl/api/v1/alert/list]
 runtime - Request Not Supported
 runtime - Request END -- [<NUM>]
 ------------------------------------------------------------------------------------------
-Group 2 (Group Size: 7):
+Group 2 (Group Size: 4):
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaEventCountsTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+------------------------------------------------------------------------------------------
+Group 3 (Group Size: 7):
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.LastMetricsIngestionTSTask:<NUM> - END - ConcurrentTask [<NUM>]
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - START - ConcurrentTask
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - with uptime_range as (
+com.obs.lcl.blmodule.helpers.InstaUptimeTask:<NUM> - END - ConcurrentTask [<NUM>]
+------------------------------------------------------------------------------------------
+Group 4 (Group Size: 7):
 runtime - Request received for endpoint: [lcl/api/v1/alert/list]
 api/v1/alert/list - Request START -- [<NUM>.<NUM>.<NUM>.<NUM>][lcl/api/v1/alert/list][en_US][<NUM>]
 api/v1/alert/list - Checking user authz

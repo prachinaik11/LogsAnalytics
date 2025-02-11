@@ -56,7 +56,7 @@ def split_data_with_sliding_windows(df, window_size, step_size):
     return sliding_windows
 
 
-def prefix_apply(minute_groups,min_sequence_length,max_sequence_length,frequency_needed_groups):
+def prefix_apply(minute_groups,min_sequence_length,max_sequence_length,frequency_needed):
     ps = PrefixSpan(minute_groups)
     ps.minlen = min_sequence_length
     ps.maxlen = max_sequence_length
