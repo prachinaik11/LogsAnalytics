@@ -1,0 +1,38 @@
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/displaystrings/list Checking user authz
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/app/instance/list Request START -- <PARAM><PARAM><PARAM><PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/instance/list reading input - payload, query params and path vars
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> runtime Request END -- <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/app/instance/list Request END -- <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/app/list Request END -- <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> runtime Request received for endpoint: <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/health/score/get Checking user authz
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/displaystrings/list reading input - payload, query params and path vars
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/app/health/score/get Request END -- <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/health/score/get reading input - payload, query params and path vars
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> ERROR <NUM> <NUM> api/v<NUM>/app/health/score/get Start and/or EndTS are invalid!
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/health/score/get performing input validation
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/alert/list Checking user authz
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/list performing input validation
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/instance/list Checking user authz
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/list reading input - payload, query params and path vars
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> FATAL <NUM> <NUM> api/v<NUM>/app/health/score/get apiservice failed due to previous errors!
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/displaystrings/list generating output
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> ERROR <NUM> <NUM> api/v<NUM>/alert/list "java.lang.NullPointerException: Cannot invoke ""com.obs.common.dto.EntityAppTypesSETDTO.getEntityID()"" because ""alertReq"" is null"
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/alert/list Request END -- <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/alert/list performing input validation
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/alert/list generating output
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/list generating output
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/instance/list generating output
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/app/list Request START -- <PARAM><PARAM><PARAM><PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> ERROR <NUM> <NUM> runtime Request Not Supported
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/instance/list performing input validation
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/displaystrings/list performing input validation
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/displaystrings/list Request START -- <PARAM><PARAM><PARAM><PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/alert/list Request START -- <PARAM><PARAM><PARAM><PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/displaystrings/list Request END -- <PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> FATAL <NUM> <NUM> api/v<NUM>/alert/list apiservice failed due to previous errors!
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/alert/list reading input - payload, query params and path vars
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/health/score/get generating output
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> INFO <NUM> <NUM> api/v<NUM>/app/health/score/get Request START -- <PARAM><PARAM><PARAM><PARAM>
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> ERROR <NUM> <NUM> api/v<NUM>/app/list User does not have required permission!
+<NUM>-<NUM>-<NUM> <NUM>:<NUM>:<NUM>,<NUM> DEBUG <NUM> <NUM> api/v<NUM>/app/list Checking user authz
